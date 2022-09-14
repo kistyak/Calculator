@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #A1D6E2;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="46.0" prefWidth="300.0" style="-fx-background-color: #1995AD;">
+         <children>
+            <Label layoutX="14.0" layoutY="8.0" text="Calculator" textFill="#f1f1f2">
+               <font>
+                  <Font name="Calibri Bold" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="button1" layoutX="44.0" layoutY="186.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #F1F1F2;" text="1" textFill="#464646">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="88.0" layoutY="186.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #F1F1F2;" text="2" textFill="#464646">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button3" layoutX="134.0" layoutY="186.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #F1F1F2;" text="3" textFill="#464646">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button4" layoutX="44.0" layoutY="232.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #F1F1F2;" text="4" textFill="#464646">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button5" layoutX="88.0" layoutY="232.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #F1F1F2;" text="5" textFill="#464646">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button6" layoutX="134.0" layoutY="231.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #F1F1F2;" text="6" textFill="#464646">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button7" layoutX="44.0" layoutY="278.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #F1F1F2;" text="7" textFill="#464646">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button8" layoutX="88.0" layoutY="278.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #F1F1F2;" text="8" textFill="#464646">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button9" layoutX="134.0" layoutY="278.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #F1F1F2;" text="9" textFill="#464646">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="201.0" layoutY="372.0" text="made by kistyak" textFill="#f1f1f2">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonAddition" layoutX="180.0" layoutY="186.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #F1F1F2;" text="+" textFill="#464646">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonSubtraction" layoutX="224.0" layoutY="186.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #F1F1F2;" text="-" textFill="#464646">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonMultiplication" layoutX="180.0" layoutY="231.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #F1F1F2;" text="×" textFill="#464646">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonDivision" layoutX="224.0" layoutY="231.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #F1F1F2;" text="÷" textFill="#464646">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonEquals" layoutX="224.0" layoutY="278.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #F1F1F2;" text="=" textFill="#464646">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="button0" layoutX="180.0" layoutY="278.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #F1F1F2;" text="0" textFill="#464646">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="window" layoutX="97.0" layoutY="62.0" prefHeight="59.0" prefWidth="167.0" textFill="#464646">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonC" layoutX="224.0" layoutY="141.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #F1F1F2;" text="C" textFill="#464646">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
